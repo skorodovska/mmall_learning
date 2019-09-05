@@ -1,0 +1,34 @@
+*.class
+
+#package file 不配置 '*.jar' 因为支付宝的jar包不在maven中
+*.war
+*.ear
+
+#kdiff3 ignore
+*.orig
+
+#maven
+target/
+
+#eclipse
+.settings/
+.project
+.classpatch
+
+#idea
+.idea/
+/idea/
+*.ipr
+*.iml
+*.iws
+
+#temp file
+*.log
+*.diff
+*.cache
+*.parch
+
+#system ignore
+.DS_Store
+Thumbs,db
+
